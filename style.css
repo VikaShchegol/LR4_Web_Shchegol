@@ -1,0 +1,247 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7e0e0;
+}
+
+header {
+    background-image: url("car.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 19px;
+}
+
+.logo {
+    max-width: 130px;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+h1 {
+    color: #f6cfcf;
+    font-family: 'Times New Roman';
+    font-size: 500%;
+}
+
+p {
+    text-align: center;
+    color: #000;
+    line-height: 1.6;
+    font-size: 130%;
+}
+
+.tex {
+    color: #720000;
+    font-weight: 600;
+}
+
+#infoblock {
+    
+    width: 60%;
+}
+
+#rightblock {
+    width: 25%;
+    padding: 10px 10px;
+    gap: 10px;
+    font-size: 19px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center; 
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #510000;
+    text-align: center;
+    padding: 6px;
+}
+
+h2 {
+    text-align: center;
+    color: #780d0d
+}
+
+h3 {
+    text-align: center;
+    color: #510909;
+}
+
+#infoblock2 {
+    width: 60%;
+    padding: 10px 10px;
+    gap: 10px;
+    font-size: 18px;
+    height: 55vh;
+}
+
+#rightblock2 {
+    width: 23%;
+    padding: 10px 10px;
+    gap: 10px;
+    font-size: 19px;
+}
+
+#infoblock3 {
+    width: 60%;
+    padding: 10px 10px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+#rightblock3 {
+    width: 30%;
+    padding: 10px 10px;
+    gap: 10px;
+    font-size: 15px;
+}
+
+h4 {
+    text-align: center;
+    color: #2636b4;
+}
+
+.texboll {
+    color: #1d2e96;
+    font-weight: 600;
+}
+
+#infoblock4 {
+    width: 60%;
+    padding: 10px 10px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+
+#infoblock5 {
+    width: 50%;
+    padding: 10px 10px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+#rightblock5 {
+    width: 50%;
+    padding: 10px 10px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+
+img {
+    max-width: 100%;
+    display: block; 
+    margin: 0 auto; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+image {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.morephotos {
+    font-size: 20px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #f85d5d;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    width: max-content;
+    text-align: center;
+}
+
+    .morephotos:hover {
+        background-color: #698be9;
+        transform: scale(1.1);
+    }
+
+footer {
+    background: #fe000041;
+}
+
+
+.menu20 {
+    flex-direction: column;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.menu20 a {
+    text-decoration: none;
+    color: #5c0000;
+}
+
+    .menu20 a:hover {
+        text-decoration: none;
+        color: #f30c0c;
+    }
+
+.googlemap {
+    width: 100%; 
+    height: 800px; 
+    margin: 0 auto; 
+    display: block;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #680000;
+}
+
+    .price-table th, .price-table td {
+        padding: 9px;
+        border: 1px solid #680000;
+    }
+
+    .price-table th {
+        background-color: #ed6565;
+        text-align: left;
+    }
+
